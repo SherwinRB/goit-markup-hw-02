@@ -1,0 +1,171 @@
+/* CSS VARIABLES */
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: ##31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --white: #ffffff;
+    --dairy: #fcfcfc;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: var(--slate);
+    background-color: var(--white);
+  }
+  
+  /* GENERAL STYLES */
+  
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+  }
+  
+  .section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+  }
+  
+  .item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+  }
+  
+  .item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  /* END OF GENERAL STYLES */
+  
+  /* HEADER SECTION */
+  
+  .nav .span {
+    color: var(--navy-blue);
+  }
+  
+  .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+  }
+  
+  .header-link:hover,
+  .header-link:focus {
+    color: var(--ocean);
+  }
+  
+  .address {
+    font-style: normal;
+  }
+  
+  .address-link {
+    /* font-style: normal; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+  }
+  
+  .address-link:hover,
+  .address-link:focus {
+    color: var(--ocean);
+  }
+  
+  /* HERO SECTION */
+  
+  .hero-section {
+    background-color: var(--navy-blue);
+    text-align: center;
+    color: var(--white);
+  }
+  
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+  
+  .hero-button {
+    background-color: var(--iris);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+  }
+  
+  .hero-button:hover,
+  .hero-button:focus {
+    background-color: var(--ocean);
+    cursor: pointer;
+  }
+  
+  /* FEATURE SECTION */
+  
+  /* TEAM SECTION */
+  .team-section {
+    background-color: var(--cloud);
+  }
+  
+  .card-item {
+    background-color: var(--white);
+  }
+  
+  /* FOOTER SECTION */
+  
+  .footer {
+    background-color: var(--navy-blue);
+  }
+  
+  .footer .span,
+  .footer .item-text {
+    color: var(--cloud);
+  }
+  
+  /* PAGE SECTION */
+  .button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+  }
+  
+  .button:hover,
+  .button:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+    cursor: pointer;
+  }
+  
